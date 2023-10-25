@@ -1,0 +1,73 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: radial-gradient(
+    circle at 18.7% 37.8%,
+    rgb(250, 250, 250) 0%,
+    rgb(225, 234, 238) 90%
+  );
+
+  margin: 50px 10px 50px 10px;
+  max-width: 100%;
+}
+h1 {
+  font-size: 60px;
+}
+
+ul {
+  list-style: none;
+}
+footer {
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  color: grey;
+  margin-top: 10px;
+}
+
+.card {
+  background: white;
+  color: #3d3d3e;
+}
+
+.city-today {
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 160px;
+}
+
+.today-icon {
+  width: 150px;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.temperature-today {
+  font-size: 80px;
+  margin-top: 5px;
+  font-weight: bold;
+  margin-left: 40px;
+  text-align: left;
+}
+.max-min-today {
+  text-align: left;
+  margin-top: -10px;
+  margin-left: 20px;
+}
+
+.next-hours-box {
+  margin-top: 70px;
+  text-align: center;
+  border-left: 1px solid grey;
+}
+
+.card-title {
+  text-align: center;
+}
+.card-icon {
+  text-align: center;
+  font-size: 50px;
+}
+.card-text {
+  text-align: center;
+}
